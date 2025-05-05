@@ -1,60 +1,103 @@
+# 🎯 Know Your Fan
 
-## 📋 Descrição
+**Know Your Fan** é uma plataforma que conecta fãs de esports a suas organizações favoritas, como a FURIA. Através da verificação de identidade, análise de redes sociais e coleta de dados, oferece experiências personalizadas com base no perfil do usuário.
 
-Know Your Fan é uma plataforma inovadora que conecta fãs de esports com suas organizações favoritas. A plataforma permite que organizações como FURIA conheçam melhor seu público através de coleta de dados, verificação de identidade e análise de interações em redes sociais, oferecendo experiências personalizadas para cada fã.
+---
 
-## 🚀 Visão Geral
+## 📌 Visão Geral
 
-O projeto foi desenvolvido para resolver o desafio de criar conexões mais profundas entre organizações de esports e seus fãs. Através de uma abordagem centrada no usuário, a plataforma coleta dados relevantes, verifica a autenticidade dos fãs e oferece recomendações personalizadas de produtos, eventos e experiências.
+O projeto foi desenvolvido para aproximar ainda mais os fãs das organizações, criando perfis detalhados, validando a autenticidade do engajamento e gerando recomendações exclusivas.
 
-### Principais Objetivos
+---
 
-- Criar perfis detalhados de fãs de esports
-- Verificar a autenticidade dos fãs através de documentos e análise de redes sociais
-- Oferecer recomendações personalizadas baseadas no perfil e interesses
-- Proporcionar uma experiência exclusiva para fãs de organizações como FURIA
+## 🧠 Funcionalidades Principais
+
+- Criação de perfil com informações pessoais e preferências em esports
+- Upload de documentos e selfie para verificação via IA
+- Conexão com redes sociais para análise de comportamento
+- Validação de perfis de esports
+- Dashboard personalizado com estatísticas e recomendações
+
+---
 
 ## 🛠️ Tecnologias Utilizadas
 
 - **Frontend**: Next.js 14, React, TypeScript
-- **Estilização**: Tailwind CSS, shadcn/ui
-- **Autenticação**: (Implementação futura com NextAuth.js)
+- **UI**: Tailwind CSS, shadcn/ui
+- **IA & Análise**: OpenAI API, AI SDK
 - **Armazenamento**: Vercel Blob Storage
-- **IA e Análise**: OpenAI API, AI SDK
-- **Implantação**: Vercel
+- **Autenticação**: (planejado) NextAuth.js
+- **Hospedagem**: Vercel
+
+---
 
 ## 📁 Estrutura do Projeto
 
+```
 know-your-fan/
-├── app/                      # Diretório principal da aplicação (App Router)
-│   ├── about/                # Página Sobre
-│   ├── dashboard/            # Dashboard do usuário
-│   ├── documents/            # Verificação de documentos
-│   ├── login/                # Autenticação
-│   ├── profile/              # Perfil do usuário
-│   ├── register/             # Cadastro de usuários
-│   ├── social/               # Conexão com redes sociais
-│   ├── globals.css           # Estilos globais
-│   ├── layout.tsx            # Layout principal
-│   └── page.tsx              # Página inicial
-├── components/               # Componentes reutilizáveis
-│   ├── ui/                   # Componentes de UI (shadcn)
-│   ├── header.tsx            # Cabeçalho da aplicação
-│   └── theme-provider.tsx    # Provedor de tema
-├── lib/                      # Funções e utilitários
-│   ├── actions.ts            # Server Actions
-│   └── utils.ts              # Funções utilitárias
-├── public/                   # Arquivos estáticos
-│   └── images/               # Imagens
-├── .env.example              # Exemplo de variáveis de ambiente
-├── next.config.js            # Configuração do Next.js
-├── package.json              # Dependências
-├── tailwind.config.js        # Configuração do Tailwind CSS
-└── tsconfig.json             # Configuração do TypeScript
+├── app/               # Rotas e páginas (App Router)
+├── components/        # Componentes reutilizáveis
+├── lib/               # Lógicas e integrações (Blob, IA)
+├── public/            # Recursos estáticos (imagens)
+├── .env.example       # Variáveis de ambiente
+└── tailwind.config.js # Configuração do Tailwind
+```
+
+---
 
 ## ⚙️ Requisitos
 
-- Node.js 18.x ou superior
-- npm 8.x ou superior
-- Conta na Vercel (para Blob Storage)
-- Chave de API da OpenAI
+- Node.js 18+
+- npm 8+
+- Conta na Vercel (para Blob)
+- API Key da OpenAI
+
+---
+
+## 🚀 Instalação
+
+```bash
+git clone https://github.com/seu-usuario/know-your-fan.git
+cd know-your-fan
+npm install
+cp .env.example .env.local
+npm run dev
+```
+
+
+
+---
+
+## 🔍 Roadmap
+
+### ✅ Fase Atual
+- Frontend com fluxo de cadastro e dashboard
+- Verificação de identidade com IA
+
+### 🧩 Próximos Passos
+- Banco de dados (MongoDB/Supabase)
+- Autenticação com NextAuth.js
+- Integração com redes sociais reais
+
+### 🚀 Futuro
+- Sistema de gamificação para fãs
+- Marketplace de produtos
+- App mobile
+- Integração com eventos ao vivo
+
+---
+
+## 🧪 Testes
+
+```bash
+npm test
+npm test -- -t "nome-do-componente"
+```
+
+---
+
+## 👨‍💻 Sobre o Desenvolvedor
+
+Fã da FURIA desde sua criação e apaixonado por tecnologia, desenvolvi este projeto unindo minha experiência com software ao universo dos esports para entregar algo útil para organizações e fãs.
+
+---
