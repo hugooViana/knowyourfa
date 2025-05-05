@@ -70,14 +70,6 @@ npm run dev
 
 ## 🔍 Roadmap
 
-### ✅ Fase Atual
-- Frontend com fluxo de cadastro e dashboard
-- Verificação de identidade com IA
-
-### 🧩 Próximos Passos
-- Banco de dados (MongoDB/Supabase)
-- Autenticação com NextAuth.js
-- Integração com redes sociais reais
 
 ### 🚀 Futuro
 - Sistema de gamificação para fãs
